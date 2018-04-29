@@ -1,4 +1,4 @@
-function __fzf_z -d 'z + fzf'
+function __fish_fzf_z -d 'z + fzf'
   set -l query (commandline)
 
   z -l | fzf | awk '{ print $2 }' | read recent
