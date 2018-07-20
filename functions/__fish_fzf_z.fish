@@ -6,7 +6,6 @@ function __fish_fzf_z -d 'z + fzf'
       cd $recent
       commandline -r ''
       commandline -f repaint
-      direnv reload ^ /dev/null
   end
 end
 
