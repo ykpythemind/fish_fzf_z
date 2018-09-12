@@ -6,5 +6,5 @@ $ fisher ykpythemind/fish_fzf_z
 
 # key_bindings
 
-Ctrl + [
+Ctrl + ]
 
